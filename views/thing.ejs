@@ -1,0 +1,65 @@
+<% page = { 'title' : 'thing page', 'key': 'junk page'} %>
+<% assets = { 'css' : ['thing.css'], 'js' : [] } %>
+<%
+    assets.js.push('https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js');
+    assets.js.push('angular/directives/myPartsList.js');
+    assets.js.push('thing.js');
+    assets.js.push('modules/swamp.js');
+%>
+
+<h1 class="techy">Good Apprentice...Gooooooood!</h1>
+<div>Div Content...</div>
+thing: <%= thing %>
+
+<div class="darkGreen-bg">
+    <img src="<%- img('icon/arrow_left_white_11x11.png') %>" alt="gumdrops">
+</div>
+
+<p>
+    Regular English type goes here.
+</p>
+<p>
+    <%- i18n('magicalPlace') %>
+</p>
+
+<% if (feature('exPhotonExp')) { %>
+    <div>
+        Secrets <%- i18n('lasers') %>
+    </div>
+<% } %>
+<div ng-app="myApp">
+    <div ng-controller="listController">
+        <h2>Photon Wavelengths and Visible Colors</h2>
+        <form>
+            <table>
+                <tr ng-repeat="spec in photonSpecs">
+                    <td>Wavelength:</td>
+                    <td>
+                        <span type="text" ng-show="!edit">{{spec.wavelength}}nm</span>
+                        <input type="text" class="inWave" ng-show="edit" ng-model="spec.wavelength">
+                    </td>
+                    <td>Visible Color:</td>
+                    <td>
+                        <span type="text" ng-show="!edit">{{spec.visibleColor}}</span>
+                        <input type="text" class="inColor" ng-show="edit" ng-model="spec.visibleColor">
+                    </td>
+                    <td ng-click="edit = !edit">
+                        <span ng-show="!edit">edit</span>
+                        <span ng-show="edit">save</span>
+                    </td>
+                    <td ng-click="deleteItem(spec)">delete</td>
+                </tr>
+                <tr>
+                    <td>Wavelength:</td>
+                    <td><input type="text" class="inWave" ng-model="waveIn">nm</td>
+                    <td>Visible Color:</td>
+                    <td><input type="text" class="inColor" ng-model="colorIn"></td>
+                    <td><span ng-click="addItem()">add</span></td>
+                </tr>
+            </table>
+        </form>
+        <a href="index">HOME</a>
+        <a href="sample">{{myVar}} Sample Page</a>
+
+    </div>
+</div>
