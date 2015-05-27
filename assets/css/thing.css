@@ -1,0 +1,27 @@
+.techy {
+    color: #FF00FF;
+}
+
+.darkGreen-bg {
+    background-color: #227711;
+    height: 25px;
+    width: 25px;
+}
+
+.ex_exPhotonExp .darkGreen-bg {
+    background-color: #000;
+}
+
+.spaceRight {
+    position: absolute;
+    left: 500px;
+    display: inline;
+}
+
+.inWave {
+    width: 50px;
+}
+
+.inColor {
+    width: 150px;
+}
