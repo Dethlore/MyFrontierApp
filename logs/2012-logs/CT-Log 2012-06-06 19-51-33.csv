@@ -1,0 +1,12 @@
+CPUID:,0x206A7
+Processor:,Intel Core i7 2600K (Sandy Bridge) 
+Platform:,LGA 1155 (Socket H2)
+Revision:,D2
+Lithography:,32nm
+
+Session start:,19:51:33 - June 06 - 2012
+
+Time,Core 0 Temp. (°),Core 1 Temp. (°),Core 2 Temp. (°),Core 3 Temp. (°),,Core 0,Low temp. (°),High temp. (°),Core load (%),Core speed (MHz),Core 1,Low temp. (°),High temp. (°),Core load (%),Core speed (MHz),Core 2,Low temp. (°),High temp. (°),Core load (%),Core speed (MHz),Core 3,Low temp. (°),High temp. (°),Core load (%),Core speed (MHz),
+19:51:43 06/06/12,30,30,34,27,,,26,32,1,4788.76,,27,32,1,4788.76,,30,34,0,4788.76,,27,32,0,4788.76,
+19:51:53 06/06/12,26,26,29,28,,,26,35,0,4788.76,,26,35,0,4788.76,,29,37,0,4788.76,,27,32,0,4788.76,
+19:52:03 06/06/12,35,34,34,34,,,26,35,0,4788.76,,26,46,0,4788.76,,29,37,0,4788.76,,27,34,0,4788.76,

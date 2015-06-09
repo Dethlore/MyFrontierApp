@@ -1,10 +1,4 @@
 module.exports = function(app) {
-  
-  // Optionally include this to use this alternative template when wanting to create your own header and footer
-  /*app.set("view options", {
-    layout: "myLayout"
-  });*/
-
 
   app.get('/thing', function(req, res){
     var thing = false;
@@ -14,6 +8,10 @@ module.exports = function(app) {
     } else {
       res.render("thing", {'thing': thing});
     }
+  });
+
+  app.get('/cpu', function(req, res){
+    res.render("cpu", {}); // {layout: 'layout/myLayout'});
   });
 
   app.get('/sample', function(req, res){
