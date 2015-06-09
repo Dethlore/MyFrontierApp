@@ -1,0 +1,15 @@
+<% page = { 'title' : 'core temp', 'key': 'temp readout'} %>
+<% assets = { 'css' : ['cpu.styl'], 'js' : [] } %>
+<%
+  assets.js.push('https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js');
+  assets.js.push('modules/tempAnalysis.js');
+%>
+
+<div ng-app="cpuApp">
+  <div ng-controller="coreTempController">
+    {{selectYear}}
+    <h2>Photon Wavelengths and Visible Colors</h2>
+    <a href="index">HOME</a> |
+    <a href="sample">Sample Page</a>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+body {
+  background: #B6B5C4;
+}
+
+footer ul {
+  list-style: none;
+
+  li {
+    display: inline;
+  }
+
+  li:not(:last-child):after {
+    content: " | ";
+  }
+
+  :last-child {
+    content: "";
+  }
+}

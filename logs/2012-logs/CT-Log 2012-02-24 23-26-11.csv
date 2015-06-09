@@ -1,0 +1,33 @@
+CPUID:,0x206A7
+Processor:,Intel Core i7 2600K (Sandy Bridge) 
+Platform:,LGA 1155 (Socket H2)
+Revision:,D2
+Lithography:,32nm
+
+Session start:,23:26:11 - February 24 - 2012
+
+Time,Core 0 Temp. (°),Core 1 Temp. (°),Core 2 Temp. (°),Core 3 Temp. (°),,Core 0,Low temp. (°),High temp. (°),Core load (%),Core speed (MHz),Core 1,Low temp. (°),High temp. (°),Core load (%),Core speed (MHz),Core 2,Low temp. (°),High temp. (°),Core load (%),Core speed (MHz),Core 3,Low temp. (°),High temp. (°),Core load (%),Core speed (MHz),
+CPUID:,0x206A7
+Processor:,Intel Core i7 2600K (Sandy Bridge) 
+Platform:,LGA 1155 (Socket H2)
+Revision:,D2
+Lithography:,32nm
+
+Session start:,23:26:11 - February 24 - 2012
+
+Time,Core 0 Temp. (°),Core 1 Temp. (°),Core 2 Temp. (°),Core 3 Temp. (°),,Core 0,Low temp. (°),High temp. (°),Core load (%),Core speed (MHz),Core 1,Low temp. (°),High temp. (°),Core load (%),Core speed (MHz),Core 2,Low temp. (°),High temp. (°),Core load (%),Core speed (MHz),Core 3,Low temp. (°),High temp. (°),Core load (%),Core speed (MHz),
+CPUID:,0x206A7
+Processor:,Intel Core i7 2600K (Sandy Bridge) 
+Platform:,LGA 1155 (Socket H2)
+Revision:,D2
+Lithography:,32nm
+
+Session start:,23:26:11 - February 24 - 2012
+
+Time,Core 0 Temp. (°),Core 1 Temp. (°),Core 2 Temp. (°),Core 3 Temp. (°),,Core 0,Low temp. (°),High temp. (°),Core load (%),Core speed (MHz),Core 1,Low temp. (°),High temp. (°),Core load (%),Core speed (MHz),Core 2,Low temp. (°),High temp. (°),Core load (%),Core speed (MHz),Core 3,Low temp. (°),High temp. (°),Core load (%),Core speed (MHz),
+23:26:21 02/24/12,26,72,70,71,,,26,34,3,4788.86,,63,72,3,4788.86,,62,71,2,4788.86,,64,72,4,4788.86,
+23:26:31 02/24/12,29,29,69,29,,,25,35,0,4788.81,,25,35,0,4788.81,,58,71,0,4788.81,,25,34,0,4788.81,
+23:26:41 02/24/12,25,73,71,73,,,25,34,0,4788.86,,63,74,0,4788.86,,62,72,0,4788.86,,64,73,0,4788.86,
+23:26:51 02/24/12,26,71,71,71,,,25,34,6,4788.86,,63,74,0,4788.86,,62,72,3,4788.86,,64,73,6,4788.86,
+23:27:01 02/24/12,29,69,68,68,,,25,34,10,4788.86,,63,74,10,4788.86,,62,72,20,4788.86,,64,73,30,4788.86,
+23:27:11 02/24/12,26,72,72,72,,,25,34,1,4788.86,,63,74,1,4788.86,,62,72,0,4788.86,,64,73,0,4788.86,
