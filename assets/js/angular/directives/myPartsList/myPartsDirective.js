@@ -30,11 +30,13 @@ myApp.controller('listController', ['$scope', function($scope) {
     }
 
     function saveItem() {
+        saveDoc($scope.photonSpecs);
     }
 
     function deleteItem(spec) {
         $scope.photonSpecs.splice($scope.photonSpecs.indexOf(spec), 1);
     }
+
 }])
 .directive('theTime', function(){
     return {

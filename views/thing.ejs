@@ -63,5 +63,17 @@ thing: <%= thing %>
         <div the-Time>
 
         </div>
+        <button type="button" ng-click="saveItem()">Save Changes</button>
+        <div id="ajaxCalled"></div>
+
+        <p>Count numbers: <span id="result"></span></p>
+        <button onclick="startWorker()">Start Worker</button>
+        <button onclick="stopWorker()">Stop Worker</button>
+        <br><br>
     </div>
+
+    <div id="sse">
+        <a href="javascript:WebSocketTest()">Run WebSocket</a>
+    </div>
+
 </div>

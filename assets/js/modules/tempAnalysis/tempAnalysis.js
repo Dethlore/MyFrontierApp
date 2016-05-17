@@ -1,18 +1,18 @@
 var cpuApp = angular.module('cpuApp', []);
 
 cpuApp.controller('coreTempController', ['$scope', function($scope) {
-    $scope.selectYear = "2012-logs/";
     var logPath = "/logs/";
-
-    function loadCoreTempLogs(dataParam) {
+    $scope.selectYear = "2012-logs/";
+    $scope.getData = function(dataParam){
+        console.log("booyah");
         $.ajax({
-           // retrieve logs
-            url: logPath + dataParam + "*.csv",
+            // retrieve logs
+            url: logPath + dataParam + "CT-Log2012-02-2423-19-36.csv",
             success: function (data) {
                 console.log(data);
             }
         });
-    }
+    };
 
     var dataset = "";
 
